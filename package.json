@@ -1,0 +1,24 @@
+{
+  "name": "socialplatform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haticedastan/socialplatform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haticedastan/socialplatform/issues"
+  },
+  "homepage": "https://github.com/haticedastan/socialplatform#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.1"
+  }
+}
