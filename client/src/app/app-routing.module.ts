@@ -1,7 +1,8 @@
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { HomeComponent } from './home/home.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { HomeComponent } from './/home/home.component';
+import { DashboardComponent } from './/dashboard/dashboard.component';
+import { RegisterComponent } from './/register/register.component';
 
 // Our Array of Angular 2 Routes
 const appRoutes: Routes = [
@@ -12,6 +13,10 @@ const appRoutes: Routes = [
   {
     path: 'dashboard',
     component: DashboardComponent // The Dashboard Route
+  },
+  {
+    path: 'register',
+    component: RegisterComponent // The Register Route
   },
   { path: '**', component: HomeComponent } // The "Catch-All" Route
 ];
